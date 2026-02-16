@@ -19,6 +19,8 @@ public class Main {
         try {
             e1.join(); e2.join(); e3.join();
             p1.join(); p2.join();
+
+            ChantierTest.main(null); // Lancement des tests de validation
             System.out.println("la maison est terminée");
         } catch (InterruptedException e) {
             System.out.println("Erreur main");
